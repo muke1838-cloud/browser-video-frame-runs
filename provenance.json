@@ -1,0 +1,33 @@
+{
+  "extracted_at": "2026-10-19 02:21 EDT",
+  "author": "ExportFrames",
+  "license": "CC BY 4.0",
+  "files": {
+    "data/measured-runs.csv": {
+      "sha256": "7a5b8cf7f8298ee6de616ce21510e4f173b536c04a4fb4ab1cf1c516ae609072",
+      "source_url": "https://exportframes.com/#measured",
+      "source_heading": "Measured runs with this frame extractor",
+      "source_note": "Three rows copied from the live home page. The site checkout public/index.html does not contain this heading."
+    },
+    "data/chrome-macos-container-decode.csv": {
+      "sha256": "20b93cd209ea3ef835ea5131a3c7c47b535464abb258425586296a979bd8c579",
+      "source_url": "https://exportframes.com/#formats",
+      "source_heading": "Supported containers — what the browser must be able to decode",
+      "section_note": "Tested 17 Sep 2026 with 6-second 640 × 360 clips. HEVC / H.265 also opened in Chrome on macOS (6 Oct 2026). Safari and Firefox have not been tested yet.",
+      "local_source": "public/index.html formats table. Live table text matched on this extraction."
+    },
+    "data/extract-controls.csv": {
+      "sha256": "1f25bd4b47695599294802d22e1cfb21af8a6c1efe13b67fb064e12aaaa8aa6c",
+      "source_url": "https://exportframes.com/",
+      "source_heading": "Extract a set of frames",
+      "code_source": "public/app.js constants MAX_FILE_BYTES, MAX_STILLS, and PRESETS. Live /app.js bytes matched that file.",
+      "live_app_js_sha256": "c39c13bd90da5370ee8d698d9988a9282dabc5e19e82549e3b540c42459169b3"
+    },
+    "limits.md": {
+      "sha256": "62e33f6c6762322b8519d4bed3dd139ef3d4cb1d35cd994608db859cc433554d",
+      "source_url": "https://exportframes.com/#limits",
+      "source_heading": "Limits (chosen on this page, not a browser spec)",
+      "local_source": "public/index.html limits list. Live list text matched on this extraction."
+    }
+  }
+}

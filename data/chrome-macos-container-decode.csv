@@ -1,0 +1,6 @@
+file,video_codec,chrome_macos,what_happened
+MP4,H.264,Decoded,10 fps and 60 frames read from the sample table; 6 stills at 1 s spacing
+MOV,H.264,Decoded,Same clip in a QuickTime container
+WEBM,VP9,Decoded,—
+MKV,H.264,Decoded,Other MKV codecs not tested
+AVI,MPEG-4 Part 2,Refused,"src not supported; header still read as 640 × 360, 10 fps, 60 frames"

@@ -1,0 +1,4 @@
+clip,source_resolution,what_was_run,frames_out,zip_size,time
+"6-second test clip, 10 fps",640 × 360,One frame every 1 s,6 PNGs at 640 × 360,"304 KB (311,254 bytes)","1 s to extract, under 1 s for the ZIP"
+the same clip,640 × 360,Every frame,60 PNGs at 640 × 360,"3.0 MB (3,128,762 bytes)","13 s to extract, 1 s for the ZIP"
+"8-second sample clip, 30 fps",1280 × 720,One frame every 1 s,8 PNGs at 1280 × 720,"1.8 MB (1,857,761 bytes)","2 s to extract, under 1 s for the ZIP"

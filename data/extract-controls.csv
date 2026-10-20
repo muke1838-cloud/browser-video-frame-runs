@@ -1,0 +1,21 @@
+kind,name,value,unit,selected_by_default
+cap,max_open_file_size,2,GB,
+cap,max_open_file_bytes_expression,2 * 1024 ** 3,bytes,
+cap,max_frames_per_run,300,frames,
+choice,interval,0.5,seconds,no
+choice,interval,1,seconds,yes
+choice,interval,2,seconds,no
+choice,interval,5,seconds,no
+choice,interval,10,seconds,no
+choice,interval,30,seconds,no
+choice,frame_count,5,frames,no
+choice,frame_count,10,frames,yes
+choice,frame_count,20,frames,no
+choice,frame_count,50,frames,no
+choice,frame_count,100,frames,no
+choice,image_format,PNG,,yes
+choice,image_format,JPG,,no
+choice,jpg_quality_minimum,60,percent,
+choice,jpg_quality_maximum,95,percent,
+choice,jpg_quality_step,5,percent,
+choice,jpg_quality_initial,85,percent,yes
